@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "ed2e1124-fad7-485a-b4c5-353ccc75077d",
+		"name": "APS2_AlgLIn",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "29274479"
+	},
+	"item": [
+		{
+			"name": "para_one_hot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"string_mensagem\" : \"salve\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/para_one_hot"
+			},
+			"response": []
+		},
+		{
+			"name": "para_string",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"matriz\":[\n    [\n        0.0,\n        1.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        1.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        1.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        1.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        1.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ],\n    [\n        0.0,\n        0.0,\n        0.0,\n        0.0,\n        0.0\n    ]\n]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/para_string"
+			},
+			"response": []
+		},
+		{
+			"name": "cifrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"string_mensagem\" : \"salve\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/cifrar"
+			},
+			"response": []
+		},
+		{
+			"name": "de_cifrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mensagem_codificada\" : \"qnmdb\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/de_cifrar"
+			},
+			"response": []
+		},
+		{
+			"name": "enigma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"string_mensagem\" : \"salve\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/enigma"
+			},
+			"response": []
+		},
+		{
+			"name": "de_enigma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"mensagem_codificada\" : \"qyace\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/de_enigma"
+			},
+			"response": []
+		}
+	]
+}
